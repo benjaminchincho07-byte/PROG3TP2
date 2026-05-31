@@ -64,6 +64,11 @@ h2 {
     text-align: center;
 }
 
+.tarjeta:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
 .seleccionada {
     background-color: #bbf7d0;
     border-color: #16a34a;
