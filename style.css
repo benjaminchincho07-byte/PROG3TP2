@@ -89,6 +89,10 @@ button:hover {
     background-color: #123c9c;
 }
 
+button:active {
+    transform: scale(0.97);
+}
+
 footer {
     background-color: #ddd;
     text-align: center;
