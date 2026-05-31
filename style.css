@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    margin: 0;
+}
+
+header {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 25px;
+}
+
+.caja {
+    background-color: white;
+    padding: 25px;
+    margin: 15px auto;
+    border: 2px solid #dbeafe;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+h2 {
+    color: #1d4ed8;
+}
+
+.contenedor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item, .tarjeta {
+    background-color: #e0ecff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #93c5fd;
+    border-radius: 8px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tarjeta {
+    width: 180px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.seleccionada {
+    background-color: #bbf7d0;
+    border-color: #16a34a;
+    font-weight: bold;
+}
+
+button {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #123c9c;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
